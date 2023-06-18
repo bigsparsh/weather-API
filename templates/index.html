@@ -9,8 +9,7 @@
             color: rgb(200, 200, 200);
 
             display: flex;
-            height: 100vh;
-            margin: 0;
+            margin-bottom: 50px;
             align-items: center;
             justify-content: center;
             flex-direction: column;
@@ -38,6 +37,7 @@
     <h2>
         <p> URL Format: http://127.0.0.1:5000/api/v1/station/date </p>
         <p> URL Example: http://127.0.0.1:5000/api/v1/10/19801109 </p>
+        <p>{{data|safe}}</p>
     </h2>
 </body>
 </html>
